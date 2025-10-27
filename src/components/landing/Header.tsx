@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,9 +11,9 @@ const Header = () => {
         alt="VonTech Group Logo"
         className="aspect-[4.55] object-contain w-[100px] self-stretch shrink-0 my-auto"
       />
-      
+
       {/* Mobile and tablet hamburger menu */}
-      <button 
+      <button
         className="lg:hidden text-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
@@ -22,17 +22,29 @@ const Header = () => {
 
       {/* Desktop navigation - visible on large screens and up */}
       <nav className="self-stretch hidden lg:flex min-w-60 items-center gap-9 my-auto max-md:max-w-full">
-        <a href="#home" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
+        <a
+          href="/"
+          className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
+        >
           Home
         </a>
-        <a href="#about" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
+        <a
+          href="/aboutUs"
+          className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
+        >
           About
         </a>
-        <a href="#services" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
+        <a
+          href="#services"
+          className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
+        >
           Services
         </a>
         <div className="self-stretch flex items-center gap-[5px] my-auto">
-          <a href="#resources" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
+          <a
+            href="#resources"
+            className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
+          >
             Resources
           </a>
           <div className="self-stretch flex flex-col overflow-hidden items-center justify-center w-[26px] my-auto pt-1">
@@ -43,14 +55,20 @@ const Header = () => {
             />
           </div>
         </div>
-        <a href="#career" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
+        <a
+          href="#career"
+          className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
+        >
           Career
         </a>
-        <a href="#events" className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors">
+        <a
+          href="#events"
+          className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
+        >
           Events
         </a>
       </nav>
-      
+
       <button className="hidden lg:flex justify-center items-center self-stretch gap-2 text-xl text-[#181818] font-semibold whitespace-nowrap bg-[#FFE21B] my-auto px-8 py-3 rounded-[20px] hover:bg-[#FFD700] transition-colors">
         Login
       </button>
@@ -58,22 +76,46 @@ const Header = () => {
       {/* Mobile and tablet menu dropdown */}
       {isMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 mt-2 bg-[rgba(255,255,255,0.95)] rounded-[20px] p-6 flex flex-col gap-4">
-          <a href="#home" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href="/"
+            className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Home
           </a>
-          <a href="#about" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href="/aboutUs"
+            className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
             About
           </a>
-          <a href="#services" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href="#services"
+            className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Services
           </a>
-          <a href="#resources" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href="#resources"
+            className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Resources
           </a>
-          <a href="#career" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href="#career"
+            className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Career
           </a>
-          <a href="#events" className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors" onClick={() => setIsMenuOpen(false)}>
+          <a
+            href="#events"
+            className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
+            onClick={() => setIsMenuOpen(false)}
+          >
             Events
           </a>
           <button className="justify-center items-center flex gap-2 text-xl text-[#181818] font-semibold bg-[#FFE21B] px-8 py-3 rounded-[20px] hover:bg-[#FFD700] transition-colors">
