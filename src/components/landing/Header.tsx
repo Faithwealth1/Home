@@ -35,14 +35,14 @@ const Header = () => {
           About
         </a>
         <a
-          href="#services"
+          href="/services"
           className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
         >
           Services
         </a>
         <div className="self-stretch flex items-center gap-[5px] my-auto">
           <a
-            href="#resources"
+            href="/resources"
             className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
           >
             Resources
@@ -56,13 +56,13 @@ const Header = () => {
           </div>
         </div>
         <a
-          href="#career"
+          href="/careers"
           className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
         >
           Career
         </a>
         <a
-          href="#events"
+          href="/events"
           className="text-white text-xl font-medium self-stretch my-auto hover:text-[#FFE21B] transition-colors"
         >
           Events
@@ -91,28 +91,28 @@ const Header = () => {
             About
           </a>
           <a
-            href="#services"
+            href="/services"
             className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Services
           </a>
           <a
-            href="#resources"
+            href="/resources"
             className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Resources
           </a>
           <a
-            href="#career"
+            href="/careers"
             className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >
             Career
           </a>
           <a
-            href="#events"
+            href="/events"
             className="text-[#181818] text-xl font-medium hover:text-[#097484] transition-colors"
             onClick={() => setIsMenuOpen(false)}
           >

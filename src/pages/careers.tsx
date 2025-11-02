@@ -1,12 +1,26 @@
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import * as React from "react";
+import Header from "@/components/landing/Header";
+import HeroSectionCareer from "@/components/landing/HeroSectionCareer";
+import WhyWorkWithUs from "@/components/landing/WhyWorkWithUs";
+import CurrentOpenings from "@/components/landing/CurrentOpenings";
+import LifeAtVontech from "@/components/landing/LifeAtVontech";
+import CallToAction from "@/components/landing/CallToAction";
+import Footer from "@/components/landing/Footer";
 
-const Careers = () => {
+const Index: React.FC = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
-      Careers
+    <div className="bg-white relative flex flex-col overflow-hidden items-stretch">
+      <Header />
+      <main>
+        <HeroSectionCareer />
+        <WhyWorkWithUs />
+        <CurrentOpenings />
+        <LifeAtVontech />
+        <CallToAction />
+      </main>
+      <Footer />
     </div>
   );
 };
 
-export default Careers;
+export default Index;
