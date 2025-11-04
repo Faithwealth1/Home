@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '@/components/Header';
-import HeroSection from '@/components/HeroSection';
-import ContentSection from '@/components/ContentSection';
-import CTASection from '@/components/CTASection';
-import Footer from '@/components/Footer';
+import Header from '@/components/landing/Header';
+import HeroSection from '@/components/landing/HeroSectionAdhome';
+import ContentSection from '@/components/landing/ContentSectionAdhome';
+import CTASection from '@/components/landing/CTASectionAdhome';
+import Footer from '@/components/landing/Footer';
 
 const Index = () => {
   const handleGetInTouch = () => {
