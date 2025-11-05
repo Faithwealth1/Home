@@ -1,7 +1,7 @@
 import React from 'react';
-import { HeroSectionfarmer } from './HeroSectionfarmer';
-import { ContentSectionfarmer } from './ContentSectionfarmer';
-import { TestimonialSectionfarmer } from './TestimonialSectionfarmer';
+import  HeroSectionfarmer  from './HeroSectionFarmer';
+import  ContentSectionfarmer  from './ContentSectionfarmer';
+import  TestimonialSectionfarmer  from './TestimonialSectionfarmer';
 import  CallToActionSectionfarmer  from './CallToActionSectionfarmer';
 
 export const WriteUpSection: React.FC = () => {

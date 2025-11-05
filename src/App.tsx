@@ -10,7 +10,7 @@ import Services from "./pages/service";
 import Careers from "./pages/careers";
 import Resources from "./pages/resources";
 import Lendsqr from "./pages/lendsqr";
-import CompleteFarmer from "./pages/completefarmer";
+import CompleteFarmer from "./pages/Completefarmer";
 import CarAid from "./pages/CarAid";
 import Bamboo from "./pages/bamboo";
 import Adhome from "./pages/adhome";

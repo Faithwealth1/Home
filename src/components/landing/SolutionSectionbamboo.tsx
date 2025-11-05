@@ -57,4 +57,4 @@ const SolutionSectionbamboo = () => {
   );
 };
 
-export default SolutionSectionbamboo;
+export default SolutionSectionbamboo ;
